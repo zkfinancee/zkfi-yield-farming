@@ -64,7 +64,7 @@ contract TokenFarm {
 	Core Thing: Distribute DApp tokens as interes and also allow the investor to unstake their tokens
 	from the app so give them interest using the app. */
 	function issueTokens() public {
-		// only owner can call this function
+
 		require(msg.sender == owner, "caller must be the owner");
 
 		// issue tokens to all stakers
